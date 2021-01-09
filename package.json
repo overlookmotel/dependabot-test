@@ -1,0 +1,43 @@
+{
+  "name": "dependabot-test",
+  "version": "1.0.0",
+  "description": "Test for Dependabot config",
+  "main": "index.js",
+  "files": [],
+  "exports": {
+    ".": "./index.js"
+  },
+  "author": {
+    "name": "Overlook Motel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overlookmotel/dependabot-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/overlookmotel/dependabot-test/issues"
+  },
+  "dependencies": {
+    "@overlookmotel/eslint-config": "^7.2.1",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "lodash": "^3.0.0"
+  },
+  "devDependencies": {
+    "@overlookmotel/eslint-config-node": "^2.1.2",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "keywords": [
+    "test"
+  ],
+  "scripts": {
+    "test": "echo 'no tests'"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT"
+}
